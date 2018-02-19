@@ -1,0 +1,194 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background:grey;
+    font-size:1em;
+}
+a{
+    color: white;
+    font-size: 0.875em;
+    text-decoration:none;
+}
+.container{
+    margin:0 20px 20px 20px;
+    background-color: white;
+    padding: 20px;
+}
+.container:after{
+    clear: both;
+}
+.container:before,.container:after{
+    content: "";
+    display:table;
+}
+.header {
+    background-color: rgb(51, 51, 51);
+}
+.header img{
+    width:140px;
+    height:50px;
+    margin-left:30px;
+}
+.header nav{
+    float: right;
+    width:25%;
+}
+.header nav ul li{
+    float:left;
+    width:25%;
+}
+.header nav ul li a{
+    line-height:50px;
+}
+section ul li{
+    list-style:none;
+}
+section h2{
+    margin:20px 0;
+}
+section h3{
+    color: grey;
+    magrin-bottom:10px;
+}
+section span{
+    font-size:0.875;
+    color:darkgrey;
+}
+section p{
+    margin-top: 10px;
+    line-height: 25px;
+    font-size:1em;
+}
+section p a{
+    color:blue;
+    font-size:1em;
+}
+.picture img{
+    width: 140px;
+    height:110px;
+}
+.picture div{
+    width:160px;
+    height:160px;
+    border:1px solid grey;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.table ol{
+    margin-left:40px;
+    font-weight:bolder;
+}
+.table ol li{
+    margin:0;
+}
+.table ol li:first-child{
+    margin-top: 20px;
+}
+.table table{
+    margin-top: 20px;
+    width:100%;
+    border-collapse: collapse;
+    text-align: left;
+    border:1px solid darkgray;
+}
+.table table a{
+    color: blue;
+    font-size:1em;
+    text-decoration: none;
+}
+.table table a:hover{
+    color:dodgerblue;
+}
+.table table tr th{
+    padding:4px;
+    font-weight: 700px;
+}
+.table table thead tr th{
+    background-color:rgb(51,51,51);
+    color: white;
+}
+.table table tfoot{
+    background-color: gainsboro;
+}
+.form h2{
+    font-size:1.2em;
+    line-height:40px;
+    border-left:3px solid darkgray;
+}
+.form form .form-box{
+    margin-left:10%;
+    width: 400px;
+    height: 50px;
+    display: flex;
+}
+
+
+.form form .form-left{
+    width: 46%;
+    text-align: right;
+    vertical-align: top;
+    font-size: 1em;
+    padding-top: 4px;
+}
+
+.form form .form-left span{
+    color: black;
+}
+
+.form form .form-right{
+    margin-left: 4%;
+    width: 50%;
+    font-size: 0.6em;
+}
+
+.form form .form-right input[type="text"]{
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+/*
+父元素设置padding-top，子元素设置vertical-align: top;
+注：子元素设置margin，IE兼容性有问题
+*/
+
+.form form .radio-box .form-right,
+.form form .select-box .form-right,
+.form form .check-box .form-right{
+    padding-top: 4px;
+}
+
+.form form .form-right input[type="radio"],
+.form form .form-right select,
+.form form .form-right input[type="checkbox"]{
+    vertical-align: top;
+}
+
+.form form input[type="submit"]{
+    margin:0;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(21,85,208);
+    border:none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 1.15em;
+}
+
+footer{
+    background-color: black;
+    height: 60px;
+    text-align: center;
+}
+
+footer span{
+    color: white;
+    font-size: 1.15em;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+
